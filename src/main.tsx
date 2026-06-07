@@ -6,6 +6,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Booking from './booking.tsx';
 import Confirmation from './confirmation.tsx';
 
+//video help: https://www.youtube.com/watch?v=c02YoWR9gSY
 const router = createBrowserRouter([
   {
     path: "/",

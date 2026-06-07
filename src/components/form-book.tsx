@@ -24,6 +24,10 @@ function FormGroupExample() {
         <Form.Label>Any other details or concerns?</Form.Label>
         <Form.Control type="text" placeholder="Any other details or concerns?" required />
       </Form.Group>
+      <Form.Group className="mb-3" controlId="formGroupPassword">
+        <Form.Label>Ideal Time for Appointment</Form.Label>
+        <Form.Control type="text" placeholder="Ideal Time for Appointment" required />
+      </Form.Group>
       </Form>
     </div>
   );

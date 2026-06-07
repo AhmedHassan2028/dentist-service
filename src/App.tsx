@@ -32,7 +32,7 @@ function App() {
       <div id="contact" className="services-title text-center mb-5" >Got Questions? Contact Us!</div>
       <div className="contact-container">
         <div className="contact-info text-2xl text-center mb-5">
-          <p><strong>Phone:</strong> (613) 301-0561</p>
+          <p><strong>Phone:</strong> (613) 111-1111</p>
           <p><strong>Email:</strong> ahmedhass0609@gmail.com</p>
         </div>
       </div>

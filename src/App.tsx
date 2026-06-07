@@ -6,6 +6,7 @@ import aboutus from './assets/about-us.jpg';
 import CardExample1 from './components/services-card1';
 import CardExample2 from './components/services-card2';
 import CardExample3 from './components/services-card3';
+import CardExample4 from './components/services-card4';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <CardExample1 />
           <CardExample2 />
           <CardExample3 />
+          <CardExample4 />
         </div>
       </div>
       <div id="contact" className="services-title text-center mb-5" >Got Questions? Contact Us!</div>

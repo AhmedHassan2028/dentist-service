@@ -1,20 +1,23 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
+import Filling from '../assets/filling.jpg';
 
-function CardExample() {
+function CardExample4() {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card style={{ width: '18rem', minHeight: '25rem' }}>
+      <Card.Img variant="top" src={Filling} style={{ height: '180px', objectFit: 'cover' }} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Filling</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Our filling service includes an examination and filling starting at 100$.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Link to="/booking">
+          <Button variant="primary">Book Appointment</Button>
+        </Link>
       </Card.Body>
     </Card>
   );
 }
 
-export default CardExample;
+export default CardExample4;

@@ -212,6 +212,16 @@
   color: #232f3f;
 }
 
+.services-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
 .profile-image {
   width: 70%;
   height: auto;
